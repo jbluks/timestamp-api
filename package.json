@@ -1,0 +1,15 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "A basic micro-service that returns a JSON string with the time, based on the time given on the URL",
+  "main": "server.js",
+  "author": "Jonathan <jon.bluks@gmail.com>",
+  "dependencies": {
+    "express": "^3.2.6",
+  },
+  "scripts": {
+    "start": "node server.js 8080"
+  },
+  "devDependencies": {},
+  "license": "ISC"
+}
