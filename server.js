@@ -2,13 +2,8 @@
 
 var express = require('express'),
 app = express(),
-port = process.argv[2];
+port = process.argv[2] || 80;
 
-if(!port) { 
-  console.error("ERROR: No port specified.");
-  console.error("Usage: node <server.js> <port>");
-  return;
-}
 
 app.get('/', function(req, res) {
   res.send({"unix": null, "natural": null});
